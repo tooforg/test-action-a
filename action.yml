@@ -3,6 +3,5 @@ description: test 1109 composite
 runs:
   using: composite
   steps:
-    - uses: tooforg/test-action-b@v1
     - shell: bash
-      run: echo MARKER_A_C1
+      run: exit 1
