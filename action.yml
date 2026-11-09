@@ -3,5 +3,4 @@ description: test 1109 composite
 runs:
   using: composite
   steps:
-    - shell: bash
-      run: exit 1
+    - uses: ./sub
