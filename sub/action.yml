@@ -1,0 +1,6 @@
+name: test sub b
+description: test 1109 sub
+runs:
+  using: composite
+  steps:
+    - uses: tooforg/test-action-b@v1
